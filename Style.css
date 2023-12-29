@@ -331,7 +331,7 @@ nav {
 
 .footer {
   background-color: #2a2d39;
-  padding: 120px 0px 40px;
+  padding: 40px 0px 40px;
   text-align: center;
   color: white;
 }
@@ -341,7 +341,23 @@ nav {
   margin: 10px auto;
 }
 
+.footer .nav-social-media li a{
+ color: white;
+ word-spacing: 2px;
+}
+
 @media only screen and (max-width: 1300px) {
+
+  .logo p {
+    margin-left: -80px;
+    
+  }
+
+  .navbar .right-row {
+    font-size: 10px;
+    margin-right: -90px;
+  }
+
   .about {
     padding: 50px;
     box-sizing: border-box;
@@ -365,6 +381,10 @@ nav {
     text-align: center;
   }
 
+  .container-skill {
+    size: 10px;
+  }
+
   .container-project {
     display: flex;
     flex-direction: column;
@@ -385,4 +405,6 @@ nav {
   }
 
   
+
+
 }
